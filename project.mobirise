@@ -1,0 +1,428 @@
+{
+  "settings": {
+    "name": "SCDOC Email",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise-amp",
+      "title": "Mobirise AMP",
+      "styling": {
+        "primaryColor": "#4ea2e3",
+        "secondaryColor": "#4addff",
+        "successColor": "#0dcd7b",
+        "infoColor": "#8282e7",
+        "warningColor": "#767676",
+        "dangerColor": "#a0a0a0",
+        "mainFont": "Roboto",
+        "display1Font": "Roboto",
+        "display1Size": 4.5,
+        "display2Font": "Roboto",
+        "display2Size": 2.2,
+        "display5Font": "Roboto",
+        "display5Size": 1.8,
+        "display7Font": "Roboto",
+        "display7Size": 1.1,
+        "display4Font": "Roboto",
+        "display4Size": 0.9,
+        "isRoundedButtons": false,
+        "isScrollToTopButton": false,
+        "arrowColor": "#4ea2e3"
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.12.4",
+    "siteFonts": [
+      {
+        "css": "'Roboto', sans-serif",
+        "name": "Roboto",
+        "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+      }
+    ],
+    "imageResize": true,
+    "favicon": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 13,
+    "versionPublish": "4.12.4",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n     <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-pb-2\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">\n                    SDOC Watch</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5 mbr-pt-1 mbr-pb-3\">\n                    <i>Shape your future web project with sharp design and refine coded functions.</i>\n                </h3>\n                <div class=\"mbr-section-btn align-center mbr-pt-3\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tARyo6Y4fC",
+          "_anchor": "content1-0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-light mbr-py-1\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">\n                    Correspondence Before Lawsuit</h3>\n                <p class=\"mbr-text mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>On Aug 31, 2021, at 9:16 AM, Michael Thorsland <mthorsland@sdoc.org> wrote:\n<br>\n<br></mthorsland@sdoc.org>Hi Mr. Smith,\n<br>After talking to you last week about someone coming to view the presentations in person and realizing that wasn't going to work, I decided to make paper copies.  I have the information that you requested at the district office. We will have the information waiting for you at the front desk for you to pick up at your convenience.\n<br>Below is a list of what I printed.\n<br>Thanks,\n<br> \n<br>•       Printed copies of the presentations to JMB staff from:\n<br>o  October (first “Be the Change” presentation)\n<br>o  November\n<br>o  January\n<br>o  February\n<br>o  March\n<br>o  April\n<br>o  May\n<br>•       Screenshots of texts sent between MT and AR during dates \n<br>requested.\n<br>•       Email from MT to AR dated July 19\n<br> \n<br>Routine email correspondences from MT to all principals (including AR) were not included due to volume and lack of relevance to this request. <br><br>&nbsp;On Mon, Sep 6, 2021 at 8:28 PM Perry Smith <perrysmithsc@gmail.com> wrote:\n<br>Dr Thorsland,\n<br>\n<br>Thank you for providing the printouts of the powerpoint training that I requested. After reviewing the printouts there are external links to materials and multimedia presentations that supplement the training. In the print form those items are not accessible and because of that I am requesting the full electronic PowerPoint presentation as was outlined in the original FOIA request. I will be more than happy to drop off a thumbdrive for the items if needed. Please let me know if you have any questions. \n<br>\n<br>Thank you,\n<br>\n<br>Perry Smith \n<br>------------------</perrysmithsc@gmail.com><br><br><perrysmithsc@gmail.com>On Sep 7, 2021, at 2:28 PM, Michael Thorsland <mthorsland@sdoc.org> wrote:\n<br>\n<br>\n<br>Hi Perry,\n<br>\n<br>Sorry that the paper copies were not adequate. I do not feel comfortable giving the digital files out on a thumb drive. I am happy to meet with you or anyone else in the OCC group to review the files and all of the links at your convenience. Our office is generally open from 7:30 to 4, M through Friday. As I mentioned before, I don't mind coming early in the morning or staying a little later.  If you give me a few options for days/times, I think we can work it out. </mthorsland@sdoc.org></perrysmithsc@gmail.com><br><br><perrysmithsc@gmail.com><mthorsland@sdoc.org>On Wed, Sep 8, 2021 at 11:49 AM Perry Smith <perrysmithsc@gmail.com> wrote:\n<br>Dr. Thorsland,\n<br>\n<br>I can appreciate you feeling that way but FOIA specifically allows for requests to be delivered by paper or digitally. This is dealt with directly on the FOIA website and says, \"A FOIA request can be made for any agency record. You can also specify the format in which you wish to receive the records (for example, printed or electronic form).\" The direct link can be found here https://www.foia.gov/faq.html and is located under the heading of \"What can I ask for under FOIA? We need the digital copies with links and any audio intact so that we can fully examine the training as it was presented. As you are aware the paper copies do not provide access to this material as it was presented. I am not sure why you would not want to provide the training in its entirety, and I am curious, have you reviewed the links that were \"recommended resources\" for the teachers? \n<br>\n<br>Perry Smith\n<br></perrysmithsc@gmail.com></mthorsland@sdoc.org>-------------------</perrysmithsc@gmail.com><br><br><perrysmithsc@gmail.com>On Sep 8, 2021, at 4:44 PM, Michael Thorsland <mthorsland@sdoc.org> wrote:\n<br>\n<br>\n<br>Hi Perry,\n<br>\n<br>The federal FOIA law is what you linked in your email. The pertinent part of South Carolina's FOIA law is below.\n<br>\n<br>SECTION 30-4-30. Right to inspect or copy public records; fees; notification as to public availability of records; presumption upon failure to give notice; records to be available when requestor appears in person.\n<br>\n<br>(A)(1) A person has a right to inspect, copy, or receive an electronic transmission of any public record of a public body, except as otherwise provided by Section 30-4-40, or other state and federal laws, in accordance with reasonable rules concerning time and place of access. \n<br>\n<br>I prefer to open up the professional development files from last year at JMB for inspection. There is no way to re-create that training as it was done. Without a video of the training, the presentation itself still leaves things up for interpretation. Mrs. Robertson will be happy to join us so that she can provide context as she was present at all of the PD sessions. I'm happy to invite other staff members from JMB as well if you want other perspectives. If you want multiple people to view the files, I'll be happy to set up the review in the boardroom.\n<br>\n<br>Thanks,\n<br></mthorsland@sdoc.org></perrysmithsc@gmail.com><br><perrysmithsc@gmail.com><mthorsland@sdoc.org>On Thu, Sep 9, 2021 at 11:32 AM Perry Smith <perrysmithsc@gmail.com> wrote:\n<br> Thorsland,\n<br>\n<br>The person that determines the format is the requestor as is evident from section 30-4-20 (b) of the statute. We requested the electronic file, which contains hyperlinks and is covered by FOIA. I would like to pick this up tomorrow, please let me know if I need to provide the thumb drive for the files. I would also remind you that the statute states that this information is to be made available with \"minimum delay\" to the person seeking the access. (Section 30-4-15) Once I review the presentation if I have any questions about the context of the training I will ask those questions at that time. \n<br>\n<br>Thank you,\n<br>\n<br>Perry Smith </perrysmithsc@gmail.com></mthorsland@sdoc.org></perrysmithsc@gmail.com><br><br><perrysmithsc@gmail.com><mthorsland@sdoc.org><perrysmithsc@gmail.com>On Sep 9, 2021, at 11:59 AM, Michael Thorsland <mthorsland@sdoc.org> wrote:\n<br>\n<br>\n<br>30-4-20 (b) states the following:  \"Person\" includes any individual, corporation, partnership, firm, organization or association.  I'm not sure how that definition dictates that the requestor determines the format. I have given you a paper copy and am willing to make the presentations available to you and anyone else to view so that hyperlinks can be seen. My understanding of the FOIA law is that I am meeting the requirements.\n</mthorsland@sdoc.org></perrysmithsc@gmail.com></mthorsland@sdoc.org></perrysmithsc@gmail.com><br><br><perrysmithsc@gmail.com><mthorsland@sdoc.org><perrysmithsc@gmail.com><mthorsland@sdoc.org><br></mthorsland@sdoc.org>On Thu, Sep 9, 2021 at 1:22 PM Perry Smith <perrysmithsc@gmail.com> wrote:\n<br>\"I'm not sure how that definition dictates that the requestor determines the format.\"\n<br>\n<br>Because SECTION 30-4-30. Says:\n<br>\n<br>(A)(1) A person has a right to inspect, copy, or receive an electronic transmission of any public record of a public body, except as otherwise provided by Section 30-4-40 \n<br>\n<br> \n<br>It is becoming obvious that you do not want to give us the information in a format that is easy to disseminate. I asked you in an earlier email if you had reviewed the hyperlinks, a question that you ignored in your reply. FOIA was put in place to encourage transparency from public officials but it seems like instead of transparency you are trying to keep a lid on a possible scandal. I hope this is not the case. Based on the reading of the statute and council we have received we have a right to be provided with a copy of the training to include all hyperlinks and that is what we requested. Are you refusing to provide the material in that electronic format? If we need to get a lawyer involved we are fully prepared to do so but I would hope we could avoid that on such a straight forward issue. \n<br>\n<br>Perry Smith \n<br>\n<br>\nOn Sep 9, 2021, at 4:21 PM, Michael Thorsland <mthorsland@sdoc.org> wrote:\n<br>\n<br>\n<br>I am being very transparent.  If I were trying to hide anything I would not be offering that you and anyone else in the OCC could come view the documents that you've requested. One of my concerns is your use of the word disseminate. FOIA does not give people the right to take documents and spread them on social media or through email - especially when it allows the presentations to be edited. You've said that easy dissemination is why you want the records in that format. \n<br>\n<br>I stand by my offer that you can give me times that would work for you to inspect any and all documents that were listed in your original request. \n<br>\n<br>Thanks\n</mthorsland@sdoc.org></perrysmithsc@gmail.com></perrysmithsc@gmail.com></mthorsland@sdoc.org></perrysmithsc@gmail.com><br><br>From: \"Perry Smith\" <perrysmithsc@gmail.com>\n<br>Sent: 9/14/21 8:03 PM\n<br></perrysmithsc@gmail.com><perrysmithsc@gmail.com><mthorsland@sdoc.org><perrysmithsc@gmail.com><perrysmithsc@gmail.com><mthorsland@sdoc.org>Mr. Thorsland, \n<br>\n<br>The very last email you sent me is a lie. You have not been truthful nor transparent. Per our conversation we had today you admit that you have been less than truthful and transparent. You also admit that the SDOC has broken copy-write laws and you have broken FOIA laws. \n<br>\n<br>1- Today you admit that you purposely left out FOIA information (16 pages) from my printouts you gave me. You never made me aware of this until today, 3 weeks later. That is not transparency, that is deception (a lie). Omission of the truth is a lie. \n<br>\n<br>2- You admit today that your VP and Principle violated copyright laws by making copies of the CRT book “Be the Change”. That’s 16 counts of a copy write law violations yet there wasn’t any type of consequences for this violation of our laws. Teachers did this. So exactly how trustworthy are they?  The nerve of the principle and vice principle to use their white privileged to take money from the black authors pocket. Hey we are teachers, we can do anything and not face any consequences. That’s what you are saying. That is what some think. \n<br> \n<br>3- You say you don’t have anything to hide. Well sir you do. You do not want the public to see what is being pushed on the teachers at JMB. Your VP that is proud to protest a confederate statue in Walhalla and boast proudly about it on FB and Instagram. We have screen shots if you care to see them. It has been proven by my second FOIA that two of your teachers have signed up for the CRT based websites for information. That same website says “teaching math to children of color is racist”   I’m sure there are smarter teachers that login from their home computer. They are only dabbling, right? But YOU let that go and pull the reigns back on our good conservative teachers. They can’t speak out about anything. Again you mislead me to think I have all the documents requested in my FOIA. Transparency? Trust? \n<br>\n<br>4- You make $200k a year to lie to the public, mislead the public and withhold information when requested by our FOIA laws. You allow your administrators to act completely thuggish by breaking laws and nothing is done. They pushed CRT and nothing was done and you covered it up. I bet our Governor would not like that. \n<br>\n<br>5- Now you are again breaking FOIA laws by not giving me everything requested on a flash drive so we can study it and share with the community which FOIA is there for. You have forced us to retain a lawyer to get this information. You are forcing us to enlighten everyone about the laws you have broken when we go to court. How do you think the public will react once they learn that you deceived them by saying CRT hasn’t been brought into Oconee schools? Please reread your last two text messages with you and Ashley. It appears that you too are giving partially false information. She’s not sorry it’s continuing, she’s sorry they got caught and now you are right in the middle of the shit storm they/you created.\n<br> \n<br>16 counts of copyright law violations\n<br>2 counts of FOIA law violations. \n<br>Big, big fines \n<br>\n<br>Perry Smith \n<br>--------------------&nbsp;<br>\n<br>\n<br></mthorsland@sdoc.org></perrysmithsc@gmail.com></perrysmithsc@gmail.com></mthorsland@sdoc.org></perrysmithsc@gmail.com><perrysmithsc@gmail.com><mthorsland@sdoc.org><perrysmithsc@gmail.com><perrysmithsc@gmail.com><mthorsland@sdoc.org><br></mthorsland@sdoc.org></perrysmithsc@gmail.com></perrysmithsc@gmail.com></mthorsland@sdoc.org></perrysmithsc@gmail.com></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tARL2HfvZL",
+          "_anchor": "content2-8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-light mbr-py-1\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">\n                    SDOC Watch: Links from JMB Training</h3>\n                <p class=\"mbr-text mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><keith@dennylegal.com><perrysmithsc@gmail.com><keith@dennylegal.com><mthorsland@sdoc.org><mthorsland@sdoc.org><br><b>October presentation</b> - no links\n</mthorsland@sdoc.org></mthorsland@sdoc.org></keith@dennylegal.com></perrysmithsc@gmail.com></keith@dennylegal.com><br><keith@dennylegal.com><perrysmithsc@gmail.com><keith@dennylegal.com><mthorsland@sdoc.org><mthorsland@sdoc.org><br><b>November presentation </b><br>•\t<a href=\"https://www.theedadvocate.org/the-lasting-impact-of-mispronouncing-students-names/#:~:text=The%20Lasting%20Impact%20of%20Mispronouncing%20Students%E2%80%99%20Names.%201,Brooklyn%2C%20was%20marked%20as%20absent%20...%20More%20items\" target=\"_blank\">The Lasting Impact of Mispronouncing Students’ Names\n</a><br>•\t<a href=\"https://readingbyexample.com/2018/06/22/its-all-about-relationships/\" target=\"_blank\">It’s All About Relationships </a> \n<br>•\t<a href=\"https://www.scholastic.com/teachers/blog-posts/alycia-zimmerman/what-s-name-back-school-literacy-unit/\" target=\"_blank\">What’s in a Name?</a> Literacy Unit </mthorsland@sdoc.org></mthorsland@sdoc.org></keith@dennylegal.com></perrysmithsc@gmail.com></keith@dennylegal.com><br><keith@dennylegal.com><perrysmithsc@gmail.com><keith@dennylegal.com><mthorsland@sdoc.org><mthorsland@sdoc.org>\n<br><b>January presentation </b><br>•\t<a href=\"https://www.youtube.com/watch?v=iK1EmMg95tI&feature=youtu.be\" target=\"_blank\">Ted Talk</a> with Jonathan So </mthorsland@sdoc.org></mthorsland@sdoc.org></keith@dennylegal.com></perrysmithsc@gmail.com></keith@dennylegal.com><br><keith@dennylegal.com><perrysmithsc@gmail.com><keith@dennylegal.com><mthorsland@sdoc.org><mthorsland@sdoc.org> \n<br><b>February presentation</b>\n<br>•\t<a href=\"https://www.ted.com/talks/chimamanda_ngozi_adichie_the_danger_of_a_single_story/transcript\" target=\"_blank\">The Danger of a Single Story</a>\n<br>•\tTeaching Tolerance (Now Learning for Justice) <a href=\"https://www.learningforjustice.org/classroom-resources/texts\" target=\"_blank\">Student Texts</a>\n<br>•\tA Short List of <a href=\"https://drive.google.com/file/d/14WvjtcoH2QEXjC64ukitqUVJoLEg4ivz/view?usp=sharing\" target=\"_blank\">Books by Black Authors</a>  \n<br>•\tA List of 17 Books from <a href=\"https://www.scholastic.com/parents/books-and-reading/raise-a-reader-blog/17-must-read-picture-books-to-celebrate-black-history-month.html\" target=\"_blank\">Scholastic\n</a><br>•\tThe Every Mom Blog List of <a href=\"https://theeverymom.com/black-history-month-books-for-kids/\" target=\"_blank\">33 Kids Books\n</a><br>•\tFrom <a href=\"https://www.todaysparent.com/family/books/16-great-black-history-month-books-for-kids/\" target=\"_blank\">Today’s Parent</a>  \n<br>•\tJMB Magic 20-21: Curriculum Resources - <a href=\"https://drive.google.com/drive/folders/19s6HYuZ_pOtPF_lO70rEkjZ97FwwIovp?usp=sharing\" target=\"_blank\">Black History Month\n</a><br>•\tBlack History Month <a href=\"https://docs.google.com/presentation/d/1HvRFioFd2f_C5mpPM-2FHo5d47smo9_1oyfIuH6fzlE/edit?usp=sharing\" target=\"_blank\">Daily Celebrations</a> </mthorsland@sdoc.org></mthorsland@sdoc.org></keith@dennylegal.com></perrysmithsc@gmail.com></keith@dennylegal.com><br><keith@dennylegal.com><perrysmithsc@gmail.com><keith@dennylegal.com><mthorsland@sdoc.org><mthorsland@sdoc.org>\n<br><b>March presentation\n</b><br>•<a href=\"https://www.earlychildhoodwebinars.com/equity/\" target=\"_blank\">\tEquity Webinars </a>\n<br>•\t<a href=\"https://www.brainlabsdigital.com/blog/how-unconscious-bias-can-lead-to-microaggression/\" target=\"_blank\">Brain Labs Blog\n</a><br>•\t<a href=\"https://www.youtube.com/watch?v=qv8VZVP5csA&feature=youtu.be\" target=\"_blank\">Inspiring the Future YouTube Video</a>\n<br>•\tFrom Pathway 2 Success: <a href=\"https://drive.google.com/file/d/1nCWSHYNSdz6sHhCtd9wS6NbHexjRPGUs/view?usp=sharing\" target=\"_blank\">Common reasons for escalated behavior and 50 strategies to try\n</a><br>•\tFrom Velcro &amp; Visuals: <a href=\"https://drive.google.com/file/d/181SEPugfyxVzY6DJ_sOQInYo_H3dOaCK/view?usp=sharing\" target=\"_blank\">De-Escalation strategy poster\n</a></mthorsland@sdoc.org></mthorsland@sdoc.org></keith@dennylegal.com></perrysmithsc@gmail.com></keith@dennylegal.com><br><keith@dennylegal.com><perrysmithsc@gmail.com><keith@dennylegal.com><mthorsland@sdoc.org><mthorsland@sdoc.org><a href=\"https://drive.google.com/file/d/181SEPugfyxVzY6DJ_sOQInYo_H3dOaCK/view?usp=sharing\" target=\"_blank\"><br></a><br><b>April presentation</b> - no links\n</mthorsland@sdoc.org></mthorsland@sdoc.org></keith@dennylegal.com></perrysmithsc@gmail.com></keith@dennylegal.com><br><keith@dennylegal.com><perrysmithsc@gmail.com><keith@dennylegal.com><mthorsland@sdoc.org><mthorsland@sdoc.org><br><keith@dennylegal.com><mthorsland@sdoc.org><br></mthorsland@sdoc.org></keith@dennylegal.com></mthorsland@sdoc.org></mthorsland@sdoc.org></keith@dennylegal.com></perrysmithsc@gmail.com></keith@dennylegal.com></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tARyp015MR",
+          "_anchor": "content2-1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
+            },
+            "& when (@masonryStyle)": {
+              "@media (min-width: 992px)": {
+                ".mbr-row": {
+                  "flex-direction": "column",
+                  "height": "(@masonryHeight * 1rem)",
+                  "align-content": "center",
+                  "justify-content": "flex-start",
+                  ".item": {
+                    "height": "auto",
+                    "flex": "none",
+                    "max-width": "100%",
+                    "& when (@imageWidth = 2)": {
+                      "width": "50.00%"
+                    },
+                    "& when (@imageWidth = 3)": {
+                      "width": "33.33%"
+                    },
+                    "& when (@imageWidth = 4)": {
+                      "width": "25.00%"
+                    }
+                  }
+                }
+              }
+            },
+            "@media (min-width: 992px)": {
+              "& when not (@noPaddings)": {
+                ".container-fluid": {
+                  "padding-left": "(@spacing * 1rem)",
+                  "padding-right": "(@spacing * 1rem)"
+                },
+                ".item": {
+                  "padding": "(@spacing * 1rem)"
+                },
+                ".item-img": {
+                  "padding-bottom": "0"
+                }
+              },
+              "& when (@noPaddings)": {
+                ".mbr-row": {
+                  "margin": "0",
+                  "padding": "0"
+                },
+                ".container-fluid, .container": {
+                  "padding": "0"
+                }
+              }
+            },
+            ".title": {
+              "& when (@spacing <= 2)": {
+                "padding-bottom": "((2 - @spacing) * 1rem)"
+              },
+              "& when (@spacing > 2)": {
+                "margin-bottom": "((2 - @spacing) * 1rem)"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".item": {
+                "margin-bottom": "2rem"
+              }
+            },
+            ".item-wrapper": {
+              "width": "100%",
+              "height": "100%",
+              "position": "relative"
+            },
+            "& when (@showText)": {
+              "amp-img": {
+                "&:after": {
+                  "content": "\"\"",
+                  "display": "block",
+                  "background-color": "rgba(red(@bgColor), green(@bgColor), blue(@bgColor), @bgOpacity)",
+                  "position": "absolute",
+                  "left": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "top": "100%",
+                  "transition": "0.2s ease-in",
+                  "z-index": "1",
+                  "pointer-events": "none"
+                },
+                ".item-sign": {
+                  "position": "absolute",
+                  "left": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "padding": "10px",
+                  "z-index": "2",
+                  "transition": "0.2s ease-in",
+                  "background-color": "rgba(red(@bgColor), green(@bgColor), blue(@bgColor), @bgOpacity)",
+                  "color": "#ffffff"
+                }
+              },
+              "amp-img:hover": {
+                "&:after": {
+                  "top": "0%"
+                },
+                ".item-sign": {
+                  "background-color": "rgba(red(@bgColor), green(@bgColor), blue(@bgColor), 0)"
+                }
+              }
+            },
+            "& when (@squareStyle)": {
+              "amp-img, img": {
+                "object-fit": "cover",
+                "height": "300px",
+                "@media (min-width: 991px) and (max-width: 1199px)": {
+                  "height": "275px"
+                }
+              }
+            },
+            ".item-btn, .item-box-btn": {
+              "margin": "0"
+            },
+            ".item-box": {
+              "justify-content": "center",
+              "position": "relative",
+              "width": "100%",
+              "background": "#efefef",
+              "overflow": "auto",
+              "@media (min-width: 992px)": {
+                "max-width": "1000px"
+              },
+              "@media (max-width: 991px)": {
+                "width": "90%",
+                "margin": "1rem"
+              }
+            },
+            ".item-box-img": {
+              "@media (min-width: 992px)": {
+                "padding": "2rem"
+              },
+              "@media (max-width: 991px)": {
+                "padding": "1rem"
+              },
+              "amp-img": {
+                "height": "auto"
+              }
+            },
+            ".item-box-wrapper": {
+              "background-color": "#efefef",
+              "@media (min-width: 992px)": {
+                "padding": "2rem"
+              },
+              "@media (max-width: 991px)": {
+                "padding": "1rem"
+              }
+            },
+            "& when (@customStyles)": {
+              "& when (@boxShadow)": {
+                ".item-wrapper": {
+                  "box-shadow": "0px 0px (@shadowSize * 1px) 0px rgba(red(@shadowColor), green(@shadowColor), blue(@shadowColor), @shadowOpacity)"
+                }
+              },
+              "& when (@hoverOverlay)": {
+                "amp-img": {
+                  "&:after": {
+                    "content": "\"\"",
+                    "pointer-events": "none",
+                    "transition": "0.4s",
+                    "position": "absolute",
+                    "top": "0",
+                    "left": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "opacity": "0",
+                    "background-color": "rgba(red(@hoverColor), green(@hoverColor), blue(@hoverColor), @hoverOpacity)"
+                  },
+                  "&:hover": {
+                    "&:after": {
+                      "opacity": "1"
+                    }
+                  }
+                }
+              },
+              "& when (@hoverIcon)": {
+                ".icon-wrap": {
+                  "position": "absolute",
+                  "left": "0",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "margin": "auto",
+                  "opacity": "0",
+                  "transition": "0.4s",
+                  "height": "(@iconSize * 1rem)",
+                  "width": "(@iconSize * 1rem)",
+                  "z-index": "2",
+                  "span": {
+                    "color": "@iconColor",
+                    "font-size": "(@iconSize * 1rem)"
+                  }
+                },
+                "amp-img:hover .icon-wrap": {
+                  "opacity": "1"
+                }
+              },
+              "& when (@useBorderRadius)": {
+                ".item-wrapper": {
+                  "z-index": "12",
+                  "border-radius": "(@borderRadius * 1px)",
+                  "overflow": "hidden"
+                }
+              }
+            },
+            "& when not (@customStyles)": {
+              ".icon-wrap": {
+                "display": "none"
+              }
+            },
+            ".item": {
+              "cursor": "pointer"
+            },
+            "& when (@noPaddings)": {
+              ".item": {
+                "margin": "0",
+                "padding": "0"
+              }
+            },
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_name": "gallery1",
+          "_customHTML": "<section class=\"amp-lightbox-gallery\" group=\"Shop\" plugins=\"amp-main, amp-lightbox-gallery\">\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n\t\t<input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n\t\t<input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n\t\t<input type=\"checkbox\" name=\"masonryStyle\" title=\"Masonry Style\" condition=\"!squareStyle\">\n\t\t<input type=\"checkbox\" name=\"squareStyle\" title=\"Square Style\" condition=\"!masonryStyle\">\n\t\t<input type=\"range\" min=\"50\" max=\"1000\" step=\"10\" value=\"70\" name=\"masonryHeight\" title=\"Height\" condition=\"masonryStyle\">\n\n\t\t<header>Show Hide</header>\n\t\t<input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked=\"\">\n\t\t<input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n\n\t\t<header>Image</header>\n\t\t<input type=\"range\" name=\"imageWidth\" title=\"Image Width\" min=\"2\" max=\"4\" step=\"1\" value=\"3\">\n\t\t<input type=\"checkbox\" name=\"showText\" title=\"Show Text\" checked=\"\">\n\t\t<input type=\"color\" name=\"bgColor\" title=\"BG Color\" value=\"#4ea2e3\" condition=\"showText\">\n\t\t<input type=\"range\" name=\"bgOpacity\" title=\"Opacity\" value=\"0.5\" min=\"0\" max=\"1\" step=\"0.1\" condition=\"showText\">\n\n\t\t<header condition=\"customStyle\">Custom Styles</header>\n\t\t<input type=\"checkbox\" name=\"noPaddings\" title=\"Without Padding\">\n\t\t<input type=\"checkbox\" name=\"customStyles\" title=\"Custom Style\">\n\n\t\t<header condition=\"customStyles\">Paddings</header>\n\t\t<input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"5\" step=\"0.5\" value=\"1\" condition=\"customStyles &amp;&amp; !noPaddings\">\n\n\t\t<header condition=\"customStyles\">Overlay</header>\n\t\t<input type=\"checkbox\" name=\"hoverOverlay\" title=\"Enable\" condition=\"customStyles\">\n\t\t<input type=\"color\" name=\"hoverColor\" value=\"#4ea2e3\" title=\"Color\" condition=\"customStyles &amp;&amp; hoverOverlay\">\n\t\t<input type=\"range\" name=\"hoverOpacity\" value=\"0.5\" min=\"0\" max=\"1\" step=\"0.1\" title=\"Opacity\" condition=\"customStyles &amp;&amp; hoverOverlay\">\n\t\t<input type=\"checkbox\" name=\"hoverIcon\" title=\"Show Icon\" condition=\"customStyles\">\n\t\t<input type=\"color\" name=\"iconColor\" value=\"#ffffff\" title=\"Icon Color\" condition=\"customStyles &amp;&amp; hoverIcon\">\n\t\t<input type=\"range\" name=\"iconSize\" title=\"Icon Size\" min=\"1\" max=\"3\" step=\"0.5\" value=\"1.5\" condition=\"customStyles &amp;&amp; hoverIcon\">\n\n\t\t<header condition=\"customStyles\">Box Shadow</header>\n\t\t<input type=\"checkbox\" name=\"boxShadow\" title=\"Shadow\" condition=\"customStyles\">\n\t\t<input type=\"range\" name=\"shadowSize\" title=\"Size\" min=\"0\" max=\"100\" step=\"1\" value=\"10\" condition=\"customStyles &amp;&amp; boxShadow\">\n\t\t<input type=\"range\" name=\"shadowOpacity\" title=\"Opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"customStyles &amp;&amp; boxShadow\">\n\t\t<input type=\"color\" name=\"shadowColor\" title=\"Color\" condition=\"customStyles &amp;&amp; boxShadow\">\n\n\t\t<header condition=\"customStyles\">Border Radius</header>\n\t\t<input type=\"checkbox\" name=\"useBorderRadius\" title=\"Round Border\" condition=\"customStyles\">\n\t\t<input type=\"range\" name=\"borderRadius\" title=\"Size\" min=\"0\" max=\"50\" step=\"1\" value=\"5\" condition=\"customStyles &amp;&amp; useBorderRadius\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" required=\"\">\n\t\t\t<input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\">\n\t\t\t<input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n\t\t<input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n\t</mbr-parameters>\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\"></div>\n\t<div mbr-class=\"{'container': !fullWidth,\n\t\t\t\t\t 'container-fluid': fullWidth}\">\n\t\t<div class=\"title mbr-pb-4\" mbr-if=\"showTitle || showSubtitle\">\n\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Monthly Trainings: Click for full PowerPoint Presentaion</h3>\n\t\t\t<h4 class=\"mbr-section-subtitle mbr-fonts-style mbr-pt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Enter your gallery subtitle here</h4>\n\t\t</div>\n\t\t<div class=\"mbr-row\" mbr-class=\"{'mbr-column mbr-jc-s': masonryStyle}\">\n            <div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/january-1366x689.png\" layout=\"responsive\" width=\"388.58635703918725\" height=\"196\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">January</p>\n\t\t\t\t\t\t<a href=\"assets/files/6--January1.pdf\" target=\"_blank\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/january-1366x689.png\" alt=\"\" title=\"\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/feburary-696x369.png\" layout=\"responsive\" width=\"369.6910569105691\" height=\"196\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Feburary</p>\n\t\t\t\t\t\t<a href=\"assets/files/3--February.pdf\" target=\"_blank\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/feburary-696x369.png\" alt=\"\" title=\"\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/march-696x391.png\" layout=\"responsive\" width=\"348.89002557544757\" height=\"196\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">March</p>\n\t\t\t\t\t\t<a href=\"assets/files/4--March.pdf\" target=\"_blank\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/march-696x391.png\" alt=\"\" title=\"\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/april-696x429.png\" layout=\"responsive\" width=\"348.8111888111888\" height=\"215\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">April</p>\n\t\t\t\t\t\t<a href=\"assets/files/5--April.pdf\" target=\"_blank\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/april-696x429.png\" alt=\"\" title=\"\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/october-696x390.png\" layout=\"responsive\" width=\"383.69230769230774\" height=\"215\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">October</p>\n\t\t\t\t\t\t<a href=\"assets/files/1--October.pdf\" target=\"_blank\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/october-696x390.png\" alt=\"\" title=\"\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/november-696x387.png\" layout=\"responsive\" width=\"386.6666666666667\" height=\"215\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">November</p>\n\t\t\t\t\t\t<a href=\"assets/files/2--November.pdf\" target=\"_blank\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/november-696x387.png\" alt=\"\" title=\"\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/slant-696x542.png\" layout=\"responsive\" width=\"348.0508474576271\" height=\"444\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Grade 3-5 Lesson Plans</p>\n\t\t\t\t\t\t<a href=\"assets/files/Pay-AttentionSLANT-LESSONPLAN.pdf\" target=\"_blank\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/slant-696x542.png\" alt=\"\" title=\"\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/listener-1-1091x622.png\" layout=\"responsive\" width=\"1037.9839142091153\" height=\"444\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Restorative Practice Activity</p>\n\t\t\t\t\t\t<a href=\"assets/files/RestorativePracticesactivityActiveListeningEmpathyBuilding-1.pdf\" target=\"_blank\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/listener-1-1091x622.png\" alt=\"\" title=\"\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "tARHbtKUmh",
+          "_anchor": "gallery1-6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "img": {
+              "object-fit": "cover"
+            },
+            "@media (min-width: 768px)": {
+              ".image-block when (@flexDirection)": {
+                "padding-left": "2rem"
+              },
+              ".image-block when not (@flexDirection)": {
+                "padding-right": "2rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".image-block": {
+                "padding-bottom": "1rem"
+              }
+            }
+          },
+          "_name": "features10",
+          "_customHTML": "<section class=\"features10\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"flexDirection\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n       \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\" mbr-class=\"{'mbr-row-reverse': flexDirection}\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-6 \">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/jacobs-newdress-610x753.png\" layout=\"responsive\" width=\"521.6998671978752\" height=\"644\" alt=\"image\" class=\"mobirise-loader\">\n                    <div placeholder class=\"placeholder\"></div>\n                    <a href=\"https://www.facebook.com/jacobs.new.dress\" target=\"_blank\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/jacobs-newdress-610x753.png\" alt title></a>\n                </amp-img>\n            </div>\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-6 mbr-m-auto\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-left mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Why the SDOC didn't want to comply with the FOIA request.</h3>\n                <p class=\"mbr-fonts-style mbr-text align-left mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\"<b>Suggested Stack for Exploring our own Identities</b>.<br>'<a href=\"https://www.facebook.com/jacobs.new.dress\" target=\"_blank\">Jacob's New Dress - by Sarah and Ian Hoffman</a>.' \"<br>See attached file by clicking, \"Being the Change\" below.</p>\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-primary\" href=\"assets/files/Be-TheChangep5-13.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">Be the Change</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tARUN5kSQV",
+          "_anchor": "features10-a",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "& when not (@fullWidth)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            ".image-block": {
+              "& when not (@fullWidth)": {
+                "width": "~\"@{videoSize}%\"",
+                "@media (max-width: 767px)": {
+                  "width": "100% !important"
+                }
+              }
+            },
+            "img": {
+              "object-fit": "contain"
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section class=\"image2\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\" checked=\"\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block mbr-m-auto\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/image001-440x500.png\" layout=\"responsive\" width=\"731.28\" height=\"831\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder=\"\" class=\"placeholder\"></div>\n                <a href=\"assets/files/Be-TheChangep5-13-Copy.pdf\" target=\"_blank\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/image001-440x500.png\" alt=\"Mobirise\" title=\"\"></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-class=\"{'mbr-py-1': !fullWidth, 'mbr-py-1 mbr-px-2': fullWidth}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Being the Change (page 5-13)</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tATeF9f0jR",
+          "_anchor": "image2-c",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
